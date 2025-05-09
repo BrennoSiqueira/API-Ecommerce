@@ -10,7 +10,10 @@ projeto de desenvolvimento de API para E-commerce usando python e flask
  <br>
  *no terminal, usar o comando "flask shell", em seguda o comando "db.create_all()" para criar os Models no db, e por último o comando "db.session.commit()" para realizar o commit das informações no db
 <br>
- *após executar os comandos acima, saia do banco de dados usando o comando "exit()" 
+ *após executar os comandos acima, saia do banco de dados usando o comando "exit()"
+ <br>
  *baixe a extensão SQLite Viewer para conseguir visualizar o banco de dados e, após isso, selecione-o como editor do seu banco de dados
+ <br>
  *configure a baseUrl, para isso abra a aba environments do postman e clique no símbolo de + (Create new Environment). Feito isso, crie uma variável com o nome "baseUrl" e defina o seu valor host, obtido no terminal ("Running on http://...") ao rodar a aplicação no vscode. cole essa URL em Initial Value.
+ <br>
  *após configurar a URL, atualize o environment da api para o environment criado localmente, podendo ser alterado na parte superior direita do postman
